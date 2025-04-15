@@ -1,0 +1,12 @@
+EX0.
+a*bb
+babb
+a
+b
+
+EX1.
+Start symbol: S
+S → intL | longL | charL | boolL
+L → C
+C → aC | bC | cC | dC | aDC | bDC | cDC | dDC | ;
+D → 1 | 2 | 3 | 4
